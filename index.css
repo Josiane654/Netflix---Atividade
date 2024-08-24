@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo{
+    width: 8%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    flex-direction: row;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.menu{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #ff0000;
+    transition: 1s;
+}
+
+.menu2{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-left: 30%;
+}
+
+.lupa{
+    width: 8%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.infantil{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.sino{
+    width: 8%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.opcao{
+    width: 10%;
+    margin-left: 10%;
+}
+
+.seta{
+    width: 4%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.outlander{
+    width: 100%;
+    height: 700px;
+    background-image: url(Imagens/outlander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.outlanderfont{
+    width: 25%;
+    margin-top: 130px;
+    margin-left: 4vw;
+}
+
+.container2{
+    width: 110%;
+    height: 89vh;
+    background-image: url(Imagens/outlander.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+
+    justify-content: space-between;
+}
+
+.container3{
+    width: 25%;
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+
+    justify-content: space-between;
+}
+
+.assistir{
+    width: 8.5em;
+    height: 7vh;
+    background-color:#fff;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+.mais-informacoes{
+    width: 12em;
+    height: 7vh;
+    background-color:#575757b2;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 5%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer; 
+}
+
+.mais-informacoes .icon{
+    width: 40px;
+    height: 40px;
+}
+
+.icon{
+    width: 30px;
+}
+
+.cards-agrup{
+
+    width: 95vw;
+    color: white;
+    
+    margin-left: 4vw;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{ 
+    height: 16vh;
+    width: 15.5vw;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
